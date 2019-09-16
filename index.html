@@ -8,7 +8,7 @@
   <h1>Volunteer Form</h1>
   <form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
     <fieldset>
-    <legend>My Info</legend>
+      <legend>My Info</legend>
       <div>
         <label>First Name: <input type="text" name="first_name_field" placeholder="Enter your first name"></label>
       </div>
@@ -19,11 +19,11 @@
         <label>Phone Number: <input type="text" name="phone_field" placeholder="Enter your phone number"></label>
       </div>
       <div>
-        <label>Email Address: <input type="email" name="email_field" placeholder="Enter your email"></label>
+        <label>Email Address: <input type="email" name="email_field" placeholder="Enter your email address"></label>
       </div>
       <div>
-        <legend>Gender:</legend>
-			  <label>Male<input type="radio" name="gender_field" value="male"></label>
+        <label>Gender:</label>
+        <label>Male<input type="radio" name="gender_field" value="male"></label>
 			  <label>Female<input type="radio" name="gender_field" value="female"></label>
       </div>
       <div>
@@ -49,18 +49,18 @@
         <label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label><br>
         <label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label><br>
         <label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label><br>
-		</div>
-    <div>
-      <label for="our_textarea">Any Comments?</label>
-        <textarea cols="30" rows="10" name="comments_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
       </div>
-  </fieldset>
-	  <div>
-			<input type="hidden" name="hidden_field" value="Yulia Thonippara">
-		</div>
+      <div>
+        <label>Any Comments?</label>
+        <textarea cols="100" rows="100" name="comments_field" placeholder="Enter your comments here"></textarea>
+      </div>
+    </fieldset>
+    <div>
+      <input type="hidden" name="hidden_field" value="Yulia Thonippara">
+    </div>
     <div>
       <input type="submit" value="Send Me">
     </div>
   </form>
-</body>
+  </body>
 </html>
