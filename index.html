@@ -22,9 +22,9 @@
         <label>Email Address: <input type="email" name="email_field" placeholder="Enter your email"></label>
       </div>
       <div>
-        <legend>Gender</legend>
-			  <label>Male: <input type="radio" name="gender_field" value="male"></label>
-			  <label>Female: <input type="radio" name="gender_field" value="female" checked="checked"></label>
+        <legend>Gender:</legend>
+			  <label>Male<input type="radio" name="gender_field" value="male"></label>
+			  <label>Female<input type="radio" name="gender_field" value="female"></label>
       </div>
       <div>
         <label>Age: <select name="age_field"></label>
@@ -38,5 +38,17 @@
 			</select>
 		</div>
     </fieldset>
+    <fieldset>
+      <legend>My Availability</legend>
+      <div>
+        <label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label>
+        <label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label>
+        <label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label>
+        <label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label>
+        <label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label>
+        <label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label>
+        <label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label>
+		</div>
+  </fieldset>
 </body>
 </html>
